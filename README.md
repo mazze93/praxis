@@ -22,11 +22,11 @@ A layered system of interdependent components, each solving one part of the sove
 
 | Layer | Component | What it owns |
 |-------|-----------|-------------|
-| Identity | [DAEDALUS](../daedalus-) | *Who* you are in a given context — operationally, securely |
-| Cognitive | [ContextSynapse](../ContextSynapse) | *What you know and remember* — adaptively, locally |
-| Community | [Secure Pride](../secure-pride) | Proving the system works for those who need it most |
-| Infrastructure | [Templates](../templates), [Aegis Icons](../secure-pride-aegis-icons) | Reusable primitives so the system can be built on safely |
-| Voice | [mazze-leczzare-blog](../mazze-leczzare-blog) | How the system and its philosophy speak outward |
+| Identity | [DAEDALUS](https://github.com/mazze93/daedalus) | *Who* you are in a given context — operationally, securely |
+| Cognitive | [ContextSynapse](https://github.com/mazze93/context-synapse) | *What you know and remember* — adaptively, locally |
+| Community | [Secure Pride](https://github.com/mazze93/Secure-Pride) | Proving the system works for those who need it most |
+| Infrastructure | Templates, [Aegis Icons](https://github.com/mazze93/secure-pride-aegis-icons) | Reusable primitives so the system can be built on safely |
+| Voice | [mazze-leczzare-blog](https://github.com/mazze93/mazze-leczzare-blog) | How the system and its philosophy speak outward |
 
 These are not separate projects. They are components of a single operating system for the self.
 
