@@ -1,20 +1,25 @@
 # Praxis
+![System](https://img.shields.io/badge/System-Personal%20OS-purple)
+![Focus](https://img.shields.io/badge/Focus-Identity%20Sovereignty-blue)
+![Architecture](https://img.shields.io/badge/Architecture-Local--First-success)
+![Status](https://img.shields.io/badge/Status-Evolving-orange)
 
-**A personal operating system for identity sovereignty.**
+![Praxis Social Preview](.github/social-preview.png)
 
----
+Praxis is a coordinated system for identity sovereignty: operational context, cognitive continuity, and community-safe infrastructure working as one stack.
 
-Praxis is not a product. It is a practice — the operational embodiment of a single conviction:
+## At a glance
+- Define a coherent operating model for privacy, cognition, and trust.
+- Compose DAEDALUS, ContextSynapse, Secure Pride, and Aegis layers.
+- Prioritize accessibility, local ownership, and operational resilience.
 
-> *You are the author of yourself. That authorship belongs to you.*
+## Quick links
+- [What Praxis Is](#what-praxis-is)
+- [Design Principles](#design-principles)
+- [Architecture](#architecture)
 
-Surveillance capitalism doesn't want your data. It wants your **context** — the living, adaptive model of who you are, what you think, what you care about, what you're likely to do next. Context is what predicts behavior. Prediction is what sells. A hostile surveillance state wants the same thing, for different and more dangerous reasons.
-
-Most privacy tools protect data in transit or at rest. Praxis protects something deeper: the **cognitive substrate** — the persistent, private, locally-owned record of identity, memory, and context that makes you *you* across time.
-
-Praxis is built for people who have real stakes in this. People managing multiple legitimate identities. Neurodivergent people whose cognitive continuity is already fragile. Marginalized communities for whom a hostile state is not a hypothetical.
-
----
+## GitHub social preview
+Upload `.github/social-preview.png` in repository `Settings -> General -> Social preview` to use the branded card on link shares.
 
 ## What Praxis Is
 
