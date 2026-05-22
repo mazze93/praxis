@@ -5,13 +5,17 @@ a system of interdependent components each owning one layer of the sovereignty p
 
 ## The System
 
+Post-Atlas paths (ritual completed 2026-05-22 — see `~/.claude/projects/-Users-daedalus/memory/user_transfer_plan.md`).
+
 | Layer | Component | Path |
 |-------|-----------|------|
-| Identity | DAEDALUS | `/Users/daedalus/Code/daedalus-` |
-| Cognitive | ContextSynapse | `/Users/daedalus/Code/ContextSynapse` |
-| Community | Secure Pride | `/Users/daedalus/Code/secure-pride` |
-| Infrastructure | Templates, Aegis Icons | `/Users/daedalus/Code/templates/`, `secure-pride-aegis-icons/` |
-| Voice | Blog | `/Users/daedalus/Code/mazze-leczzare-blog` |
+| Anchor | Stele | `/Users/daedalus/Code/secure-pride/stele` |
+| Identity | DAEDALUS | `/Users/daedalus/Code/cognitive/daedalus` |
+| Cognitive | ContextSynapse | `/Users/daedalus/Code/cognitive/ContextSynapse` |
+| Agentic Trust | praxis-aegis | `/Users/daedalus/Code/cognitive/praxis-aegis` |
+| Community | Secure Pride | `/Users/daedalus/Code/secure-pride/secure-pride-site` |
+| Infrastructure | Templates, Aegis Icons | `/Users/daedalus/Code/templates/`, `/Users/daedalus/Code/🔒 secure-pride/secure-pride-aegis-icons/` |
+| Voice | Blog | `/Users/daedalus/Code/mazzeleczzare.com` |
 
 ## Core Thesis
 Surveillance capitalism and hostile state actors target **cognitive substrate** — the living
@@ -25,10 +29,15 @@ local, private, and under your control.
 4. Sovereignty requires composability — layers must integrate
 5. The personal is political — built for communities with real stakes
 
-## Critical Integration Gap
-DAEDALUS (operational identity) and ContextSynapse (cognitive memory) are not yet connected.
-`daedalus switch <context>` should also load/save the ContextSynapse profile for that context.
-This is the highest-value unbuilt piece of the system.
+## Integration Status
+
+- **DAEDALUS ↔ ContextSynapse** — built. `daedalus switch <context>` saves/loads cognitive
+  profiles via `lib/state.sh` and `bin/_cognitive.sh`.
+- **DAEDALUS → praxis-aegis** — not yet built. Context switch should initiate/tear down
+  a praxis-aegis session for the incoming identity.
+- **ContextSynapse → praxis-aegis** — not yet built. Intent weights could auto-populate
+  the `trigger` field (research/ops/write/admin) without per-call declaration.
+- **ContextSynapse → Secure Pride** — not yet built. Adaptive local prompting for community tools.
 
 ## Full Docs
 - Vision + manifesto: `README.md`
