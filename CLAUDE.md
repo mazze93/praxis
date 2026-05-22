@@ -9,13 +9,13 @@ Post-Atlas paths (ritual completed 2026-05-22 — see `~/.claude/projects/-Users
 
 | Layer | Component | Path |
 |-------|-----------|------|
-| Anchor | Stele | `/Users/daedalus/Code/secure-pride/stele` |
+| Anchor | Stele | `/Users/daedalus/Code/tools/stele` |
 | Identity | DAEDALUS | `/Users/daedalus/Code/cognitive/daedalus` |
 | Cognitive | ContextSynapse | `/Users/daedalus/Code/cognitive/ContextSynapse` |
 | Agentic Trust | praxis-aegis | `/Users/daedalus/Code/cognitive/praxis-aegis` |
 | Community | Secure Pride | `/Users/daedalus/Code/secure-pride/secure-pride-site` |
-| Infrastructure | Templates, Aegis Icons | `/Users/daedalus/Code/templates/`, `/Users/daedalus/Code/🔒 secure-pride/secure-pride-aegis-icons/` |
-| Voice | Blog | `/Users/daedalus/Code/mazzeleczzare.com` |
+| Infrastructure | Templates, Aegis Icons | `/Users/daedalus/Code/templates/`, `/Users/daedalus/Code/secure-pride/aegis-icons` |
+| Voice | Blog | `/Users/daedalus/Code/blog` |
 
 ## Core Thesis
 Surveillance capitalism and hostile state actors target **cognitive substrate** — the living
