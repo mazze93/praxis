@@ -30,6 +30,15 @@
         └─────────────────┬─────────────────┘
                           │
 ┌─────────────────────────────────────────────────────┐
+│                  AGENTIC TRUST                      │
+│                 praxis-aegis                        │
+│   What an AI is permitted to do, as you             │
+│   Hardware-key-gated tool policy enforcement        │
+│   Identity × trigger × policy_set → tier            │
+│   Quota enforcement + output redaction              │
+└─────────────────────────────────────────────────────┘
+                          │
+┌─────────────────────────────────────────────────────┐
 │                  INFRASTRUCTURE                     │
 │    template-python-secure-container                 │
 │    secure-pride-aegis-icons                         │
@@ -72,7 +81,31 @@ The first production deployment of Praxis principles for a community with real s
 
 ---
 
+### Agentic Trust Layer — praxis-aegis
+**Path**: `/Users/daedalus/Code/cognitive/praxis-aegis`
+**Stack**: TypeScript (ESM, strict), Node 20+, Express, Zod, jsonwebtoken, yaml
+
+The third dimension of identity sovereignty — added as AI agent tool use became a real
+deployment surface. When an AI model runtime has access to real tools, it has both your
+context and your reach. praxis-aegis enforces what it may do with that reach.
+
+The gateway enforces a pipeline per invocation: session verification → identity lock →
+policy resolution → tool override evaluation → caller verification → tool allow/deny →
+quota (synchronous) → backend → byte tracking → output redaction.
+
+Policy lives in `tool_risk_tier.yaml` — not in code. Tiers: T0_DENY, T1_READONLY,
+T2_WRITE_SAFE, T3_PRIVILEGED. Identities: `daedalus`, `secure_pride`. Sessions are
+gated by SSH hardware key signature (ssh-keygen -Y verify).
+
+**Planned integrations** (not yet built):
+
+- `daedalus switch <context>` → should initiate/tear down a praxis-aegis session for that identity
+- ContextSynapse intent weights → could auto-populate `trigger` field (research/ops/write/admin)
+
+---
+
 ### Infrastructure Layer
+
 **Paths**:
 - `/Users/daedalus/Code/templates/template-python-secure-container`
 - `/Users/daedalus/Code/secure-pride-aegis-icons`
@@ -134,8 +167,11 @@ Adaptive prompting for community-facing AI tools. ContextSynapse's Bayesian engi
 | ✓ Built | DAEDALUS ↔ ContextSynapse integration (`lib/state.sh`, `bin/_cognitive.sh`) |
 | ✓ Built | Secure Pride landing page + hosting config |
 | ✓ Built | Python secure container template |
+| ✓ Built | praxis-aegis enforcement gateway (agentic trust layer) |
+| ✗ Not built | praxis-aegis backend routing (tool backends not yet registered) |
+| ✗ Not built | DAEDALUS context switch → praxis-aegis session initiation |
+| ✗ Not built | ContextSynapse intent → praxis-aegis trigger auto-population |
 | ✗ Not built | Secure Pride `_headers` / `_redirects` / Cloudflare config |
 | ✗ Not built | ContextSynapse → Secure Pride adaptive prompting |
-| ✗ Not built | Praxis integration layer / shared protocol |
 | ✗ Not built | Cross-device sync (encrypted, local-first) |
 | ✗ Not built | Praxis installer / bootstrap script |
