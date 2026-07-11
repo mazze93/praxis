@@ -18,9 +18,6 @@ Praxis is a coordinated system for identity sovereignty: operational context, co
 - [Design Principles](#design-principles)
 - [Architecture](#architecture)
 
-## GitHub social preview
-Upload `.github/social-preview.png` in repository `Settings -> General -> Social preview` to use the branded card on link shares.
-
 ## What Praxis Is
 
 A layered system of interdependent components, each solving one part of the sovereignty problem:
@@ -29,8 +26,8 @@ A layered system of interdependent components, each solving one part of the sove
 |-------|-----------|-------------|
 | Identity | [DAEDALUS](https://github.com/mazze93/daedalus) | *Who* you are in a given context — operationally, securely |
 | Cognitive | [ContextSynapse](https://github.com/mazze93/context-synapse) | *What you know and remember* — adaptively, locally |
-| Community | [Secure Pride](https://github.com/mazze93/Secure-Pride) | Proving the system works for those who need it most |
-| Infrastructure | Templates, [Aegis Icons](https://github.com/mazze93/secure-pride-aegis-icons) | Reusable primitives so the system can be built on safely |
+| Community | [Secure Pride](https://github.com/mazze93/secure-pride) | Proving the system works for those who need it most |
+| Infrastructure | Templates, [Aegis Icons](https://github.com/Secure-Pride/secure-pride-aegis-icons) | Reusable primitives so the system can be built on safely |
 | Voice | [mazze-leczzare-blog](https://github.com/mazze93/mazze-leczzare-blog) | How the system and its philosophy speak outward |
 
 These are not separate projects. They are components of a single operating system for the self.
@@ -61,3 +58,11 @@ Praxis exists because people's lives depend on it. Secure Pride is the proof of 
 Praxis is an emerging system. The components exist and function independently. The integration layer — the connective tissue that makes them a unified OS — is the next frontier.
 
 See [ARCHITECTURE.md](./ARCHITECTURE.md) for the technical map.
+
+## Start here
+
+If you want to see working code rather than architecture, start with:
+
+- [daedalus](https://github.com/mazze93/daedalus) — the shipped CLI: one command switches VPN, terminal, and filesystem context
+- [stratum](https://github.com/mazze93/stratum) — epistemic decision ledger with a live demo at [stratum.mazzeleczzare.com](https://stratum.mazzeleczzare.com)
+
