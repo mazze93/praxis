@@ -10,7 +10,7 @@ Post-Atlas paths (ritual completed 2026-05-22 — see `~/.claude/projects/-Users
 | Layer | Component | Path |
 |-------|-----------|------|
 | Anchor | Stele | `/Users/daedalus/Code/tools/stele` |
-| Identity | DAEDALUS | `/Users/daedalus/Code/cognitive/daedalus` |
+| Identity | DAEDALUS | `/Users/daedalus/Code/cognitive/daedalus-switch` |
 | Cognitive | ContextSynapse | `/Users/daedalus/Code/cognitive/ContextSynapse` |
 | Agentic Trust | praxis-aegis | `/Users/daedalus/Code/cognitive/praxis-aegis` |
 | Community | Secure Pride | `/Users/daedalus/Code/secure-pride/secure-pride-site` |

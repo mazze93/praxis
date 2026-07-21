@@ -24,7 +24,7 @@ A layered system of interdependent components, each solving one part of the sove
 
 | Layer | Component | What it owns |
 |-------|-----------|-------------|
-| Identity | [DAEDALUS](https://github.com/mazze93/daedalus) | *Who* you are in a given context — operationally, securely |
+| Identity | [DAEDALUS](https://github.com/mazze93/daedalus-switch) | *Who* you are in a given context — operationally, securely |
 | Cognitive | [ContextSynapse](https://github.com/mazze93/context-synapse) | *What you know and remember* — adaptively, locally |
 | Community | [Secure Pride](https://github.com/mazze93/secure-pride) | Proving the system works for those who need it most |
 | Infrastructure | Templates, [Aegis Icons](https://github.com/Secure-Pride/secure-pride-aegis-icons) | Reusable primitives so the system can be built on safely |
@@ -63,6 +63,6 @@ See [ARCHITECTURE.md](./ARCHITECTURE.md) for the technical map.
 
 If you want to see working code rather than architecture, start with:
 
-- [daedalus](https://github.com/mazze93/daedalus) — the shipped CLI: one command switches VPN, terminal, and filesystem context
+- [daedalus-switch](https://github.com/mazze93/daedalus-switch) — the shipped CLI: one command switches VPN, terminal, and filesystem context
 - [stratum](https://github.com/mazze93/stratum) — epistemic decision ledger with a live demo at [stratum.mazzeleczzare.com](https://stratum.mazzeleczzare.com)
 
