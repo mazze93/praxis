@@ -6,12 +6,26 @@
 
 ![Praxis Social Preview](.github/social-preview.png)
 
-Praxis is a coordinated system for identity sovereignty: operational context, cognitive continuity, and community-safe infrastructure working as one stack.
-
 ## At a glance
-- Define a coherent operating model for privacy, cognition, and trust.
-- Compose DAEDALUS, ContextSynapse, Secure Pride, and Aegis layers.
-- Prioritize accessibility, local ownership, and operational resilience.
+
+Praxis is a personal operating system built around one premise: identity, memory, and trust should be owned locally, not rented from a cloud vendor. Four interdependent layers form the stack rather than four disconnected tools.
+
+- **Unified control plane** — switching context in DAEDALUS also restores your ContextSynapse cognitive profile, so state travels with identity.
+- **Privacy as structure** — no component has a required cloud dependency; ContextSynapse persists locally.
+- **Trust is enforced, not assumed** — Aegis gates agent actions through session verification, identity lock, policy resolution, and redaction.
+
+### Build status
+
+| Status | Component |
+|:---:|---|
+| ✅ | DAEDALUS context switching |
+| ✅ | ContextSynapse Bayesian engine |
+| ✅ | DAEDALUS ↔ ContextSynapse integration |
+| ✅ | Aegis enforcement gateway |
+| ⬜ | Aegis backend tool routing |
+| ⬜ | DAEDALUS → Aegis session auto-init |
+| ⬜ | Cross-device encrypted sync |
+| ⬜ | Installer / bootstrap script |
 
 ## Quick links
 - [What Praxis Is](#what-praxis-is)
@@ -26,38 +40,38 @@ A layered system of interdependent components, each solving one part of the sove
 |-------|-----------|-------------|
 | Identity | [DAEDALUS](https://github.com/mazze93/daedalus-switch) | *Who* you are in a given context — operationally, securely |
 | Cognitive | [ContextSynapse](https://github.com/mazze93/context-synapse) | *What you know and remember* — adaptively, locally |
-| Community | [Secure Pride](https://github.com/mazze93/secure-pride) | Proving the system works for those who need it most |
-| Infrastructure | Templates, [Aegis Icons](https://github.com/Secure-Pride/secure-pride-aegis-icons) | Reusable primitives so the system can be built on safely |
 | Voice | [mazze-leczzare-blog](https://github.com/mazze93/mazze-leczzare-blog) | How the system and its philosophy speak outward |
-
-These are not separate projects. They are components of a single operating system for the self.
 
 ---
 
 ## Design Principles
 
 **1. Local-first is non-negotiable.**
-Your cognitive substrate lives on your hardware. No required cloud dependency. No third-party custody of your context.
+Your cognitive substrate lives on your hardware. 
+No required cloud dependency. 
+No third-party custody of your context.
 
 **2. Privacy is the architecture, not a feature.**
-Every component is built privacy-first at the structural level. It cannot be bolted on afterward.
+Every component is built privacy-first at the structural level. 
+It cannot be bolted on afterward.
 
 **3. Cognitive accessibility is a first-class requirement.**
-ADHD-accessible design throughout. One command, not ten steps. Minimal decision overhead. Context that follows you instead of requiring you to reconstruct it.
+ADHD-accessible design throughout. 
+One command, not ten steps. 
+Minimal decision overhead. 
+Context that follows you instead of requiring you to reconstruct it.
 
 **4. Sovereignty requires composability.**
-The layers must integrate. Switching identity context (DAEDALUS) should carry cognitive context (ContextSynapse). Components that don't talk to each other leave gaps that surveillance fills.
-
-**5. The personal is political.**
-Praxis exists because people's lives depend on it. Secure Pride is the proof of concept. The system is built with the communities most endangered by its absence.
+The layers must integrate. 
+Switching identity context (DAEDALUS) should carry cognitive context (ContextSynapse). 
+Components that don't talk to each other leave gaps that surveillance fills.
 
 ---
 
 ## Status
 
-Praxis is an emerging system. The components exist and function independently. The integration layer — the connective tissue that makes them a unified OS — is the next frontier.
-
-See [ARCHITECTURE.md](./ARCHITECTURE.md) for the technical map.
+Praxis is an emerging system. The components exist and function independently.
+The integration layer — the connective tissue that makes them a unified OS — is the next frontier.
 
 ## Start here
 
