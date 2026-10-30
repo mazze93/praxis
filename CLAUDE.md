@@ -32,7 +32,8 @@ local, private, and under your control.
 ## Integration Status
 
 - **DAEDALUS ↔ ContextSynapse** — built. `daedalus switch <context>` saves/loads cognitive
-  profiles via `lib/state.sh` and `bin/_cognitive.sh`.
+  profiles via `lib/state.sh` and `bin/_cognitive.sh` in the sibling repo
+  `cognitive/daedalus-switch` (not in this repo).
 - **DAEDALUS → praxis-aegis** — not yet built. Context switch should initiate/tear down
   a praxis-aegis session for the incoming identity.
 - **ContextSynapse → praxis-aegis** — not yet built. Intent weights could auto-populate
